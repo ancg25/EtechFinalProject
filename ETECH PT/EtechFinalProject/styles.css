@@ -1,0 +1,90 @@
+@font-face {
+    font-family: raleway;
+    src: url(/fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: her;
+    src: url(/fonts/MrsSaintDelafield-Regular.ttf);
+}
+@font-face {
+    font-family: oswald;
+    src: url(/fonts/Oswald-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway';
+}
+
+body{
+    background-color: #FEE1ED;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+    left: 17px;
+    z-index: 1;
+}
+.navbar{
+    background-color: #956657;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -54px;
+    cursor: pointer;
+}
+.navbar ul{
+    flex: 1;
+    padding-left: 90px;
+
+}
+.navbar li{
+    display: inline-block;
+    margin: 15px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: oswald;
+    cursor: pointer;
+}
+.navbar a:hover{
+    background-color: rgba(197, 146, 116, 0.6); 
+}
+
+.logos{
+    width: 55px;
+    background-color: #C59274;
+    cursor: pointer;
+    padding: 5px;
+}
+.socials{
+    padding-top: 4px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 10px;
+    align-items: right;
+    cursor: pointer;
+}
+.this{
+    margin-right: 30px;
+    
+}
+h1{
+    margin-top: -55px;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    font-family: OSWALD;
+    background-color:white;
+}
+p{
+    text-align: center;
+    margin: 40px;
+}
+
+
